@@ -17,6 +17,7 @@
 *.anim eol=lf merge=unityyamlmerge
 *.asset eol=lf merge=unityyamlmerge
 *.controller eol=lf merge=unityyamlmerge
+*.lighting eol=lf merge=unityyamlmerge
 *.mat eol=lf merge=unityyamlmerge
 *.meta eol=lf merge=unityyamlmerge
 *.physicMaterial eol=lf merge=unityyamlmerge
@@ -37,3 +38,5 @@
 # https://git-lfs.github.com
 # Example format:
 # *.ext filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
