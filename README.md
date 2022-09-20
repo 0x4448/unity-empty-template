@@ -5,9 +5,9 @@ Fork the `main` branch and clone your fork. Setup [git lfs](https://git-lfs.gith
 
 ```
 [merge]
-    tool = unityyamlmerge
+	tool = unityyamlmerge
 [mergetool "unityyamlmerge"]
-    trustExitCode = false
-    # Replace with your editor's installation path
-    cmd = 'C:\\Path\\To\\UnityYAMLMerge.exe' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
+	trustExitCode = false
+	# Replace with your editor's installation path
+	cmd = 'C:\\Program Files\\Unity\\Hub\\Editor\\UNITY_VERSION\\Editor\\Data\\Tools\\UnityYAMLMerge.exe' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
 ```
