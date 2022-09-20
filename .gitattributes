@@ -15,16 +15,23 @@
 
 # Smart merge for Unity files
 *.anim eol=lf merge=unityyamlmerge
+*.asmdef eol=lf merge=unityyamlmerge
 *.asset eol=lf merge=unityyamlmerge
 *.controller eol=lf merge=unityyamlmerge
 *.lighting eol=lf merge=unityyamlmerge
+*.mask eol=lf merge=unityyamlmerge
 *.mat eol=lf merge=unityyamlmerge
 *.meta eol=lf merge=unityyamlmerge
+*.mixer eol=lf merge=unityyamlmerge
 *.physicMaterial eol=lf merge=unityyamlmerge
 *.physicsMaterial2D eol=lf merge=unityyamlmerge
+*.playable eol=lf merge=unityyamlmerge
 *.prefab eol=lf merge=unityyamlmerge
+*.renderTexture eol=lf merge=unityyamlmerge
+*.signal eol=lf merge=unityyamlmerge
 *.terrainlayer eol=lf merge=unityyamlmerge
 *.unity eol=lf merge=unityyamlmerge
+*.wlt eol=lf merge=unityyamlmerge
 
 # Git Large File Storage
 # https://git-lfs.github.com
