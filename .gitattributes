@@ -77,6 +77,12 @@
 # Plugin
 *.dll unity-lfs
 
+# Special cases
+# default name: NavMesh-GameObjectName.asset
+[Nn]av[Mm]esh-*.asset unity-lfs
+# default name: New Terrain.asset
+*[Tt]errain.asset unity-lfs
+
 # Texture
 *.bmp unity-lfs
 *.exr unity-lfs
