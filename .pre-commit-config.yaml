@@ -6,6 +6,9 @@ repos:
     -   id: check-merge-conflict
     -   id: check-yaml
     -   id: end-of-file-fixer
+        types: [c#]
     -   id: mixed-line-ending
+        types: [c#]
     -   id: no-commit-to-branch
     -   id: trailing-whitespace
+        types: [c#]
